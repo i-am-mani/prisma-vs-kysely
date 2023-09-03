@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "@prisma/client": "^5.2.0",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "kysely": "^0.26.3",
+    "kysely-planetscale": "^1.4.0",
+    "nanoid": "^4.0.2",
     "next": "13.4.19",
     "postcss": "8.4.29",
+    "prisma-kysely": "^1.7.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react18-json-view": "^0.2.3",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "prisma": "^5.2.0"
   }
 }
